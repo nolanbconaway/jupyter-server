@@ -1,0 +1,5 @@
+.python-version
+*-checkpoint.ipynb
+.env
+.vscode
+.ipynb_checkpoints

@@ -1,0 +1,2 @@
+#!/usr/bin/sh 
+jupyter notebook -y --port=5200 --ip=0.0.0.0 --no-browser --notebook-dir=notebooks --config=jupyter_notebook_config.py
