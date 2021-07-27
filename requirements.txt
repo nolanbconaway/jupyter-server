@@ -26,3 +26,4 @@ isort==4.3.20
 statsmodels==0.12.2
 Theano-PyMC==1.1.2
 tqdm==4.60.0
+requests-2.26.0
