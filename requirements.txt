@@ -1,18 +1,24 @@
 black
 git+https://github.com/nolanbconaway/lapse
 isort
+psycopg[binary]
+
 jupyter==1.*
 matplotlib==3.*
 numpy==1.*
-opencv-python==4.*
 pandas==1.*
-plotnine==0.*
-psycopg2-binary
-requests==2.*
+plotnine==0.10.*
+requests==2.28.*
 scipy==1.*
-statsmodels==0.*
+statsmodels==0.13.*
 tqdm==4.*
 bs4==0.*
+pyarrow==11.*
 
 musicbrainzngs==0.7.1
-musicnn==0.1.0
+torch==2.* --extra-index-url https://download.pytorch.org/whl/cpu
+torchaudio==2.*
+librosa==0.10.*
+transformers==4.28
+datasets==2.12.0
+nnAudio==0.3.2
